@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace git_diff
 {
@@ -6,7 +7,9 @@ namespace git_diff
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome");
+            Console.WriteLine("welcome my boi");
+
+            Readfiles readObj = new Readfiles();
         }
     }
 }
