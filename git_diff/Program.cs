@@ -9,7 +9,7 @@ namespace git_diff
         {
             Console.WriteLine("welcome my boi");
 
-            Readfiles readObj = new Readfiles();
+            ReadInput readObj = new ReadInput();
         }
     }
 }
