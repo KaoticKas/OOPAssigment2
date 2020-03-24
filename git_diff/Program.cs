@@ -7,9 +7,13 @@ namespace git_diff
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome my boi");
+            Check Verification= new Check();
 
+<<<<<<< Updated upstream
             Readfiles readObj = new Readfiles();
+=======
+            //new object to start the script for read input
+>>>>>>> Stashed changes
         }
     }
 }
