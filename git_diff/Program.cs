@@ -1,6 +1,4 @@
 ﻿using System;
-using System.IO;
-
 namespace git_diff
 {
     class Program
@@ -8,12 +6,7 @@ namespace git_diff
         static void Main(string[] args)
         {
             Check Verification= new Check();
-
-<<<<<<< Updated upstream
-            Readfiles readObj = new Readfiles();
-=======
-            //new object to start the script for read input
->>>>>>> Stashed changes
+            //an reference to the class of check to allow the full program to run.
         }
     }
 }

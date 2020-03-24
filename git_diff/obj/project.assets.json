@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\computing\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Kaotic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\computing\\Desktop\\Programming\\OOPAssigment2\\git_diff\\git_diff.csproj",
+      "projectUniqueName": "C:\\Users\\Kaotic\\Desktop\\assigment 1\\OOP\\OOPAssigment2\\git_diff\\git_diff.csproj",
       "projectName": "git_diff",
-      "projectPath": "C:\\Users\\computing\\Desktop\\Programming\\OOPAssigment2\\git_diff\\git_diff.csproj",
-      "packagesPath": "C:\\Users\\computing\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\computing\\Desktop\\Programming\\OOPAssigment2\\git_diff\\obj\\",
+      "projectPath": "C:\\Users\\Kaotic\\Desktop\\assigment 1\\OOP\\OOPAssigment2\\git_diff\\git_diff.csproj",
+      "packagesPath": "C:\\Users\\Kaotic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kaotic\\Desktop\\assigment 1\\OOP\\OOPAssigment2\\git_diff\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\computing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kaotic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

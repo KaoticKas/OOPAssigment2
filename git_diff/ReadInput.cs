@@ -5,11 +5,12 @@ using System.IO;
 
 public class ReadInput
 {
+	public List<string> file1 = new List<string>();
+	public List<string> file2 = new List<string>();
+	//Creates two lists of type string that will contain the contents of the file a and file b for comparison purposes
 	public ReadInput()
 	{
-		List<string> file1 = new List<string>();
-		List<string> file2 = new List<string>();
-		//Creates two lists of type string that will contain the contents of the file a and file b for comparison purposes
+
 		string line,
 			diffA = "",
 			diffB = "";
@@ -26,24 +27,24 @@ public class ReadInput
 		//assigning file locations to their respective variable names to get the paths for the file
 
 
-		var filepathA = (path + @"\Files" + diffA);
-		var filepathB = (path + @"\Files" + diffB);
+		var filepathA = (path + @"\Files\GitRepositories_" + diffA);
+		var filepathB = (path + @"\Files\GitRepositories_" + diffB);
 		//gets the full path to find both files within the files folder
 		StreamReader fileA = new StreamReader(filepathA);
 		//new stream reader object that will read whatever file ive picked
 		while ((line = fileA.ReadLine()) != null)
 		{
-			file1.Add(line);
+			file1.Add(line.ToLower());
 		}
-		// A loop that will add each line into an list until it can no longer read any lines
+		// A loop that will add each line and convert them to lower characters into an list until it can no longer read any lines
 		fileA.Close();
 		//closes the file
 		StreamReader fileB = new StreamReader(filepathB);
 		//stream reader object for file B
 		while ((line = fileB.ReadLine()) != null)
 		{
-			file2.Add(line);
-			//Adding data to the File B list.
+			file2.Add(line.ToLower());
+			//Adding data to the File B list and changing it all to lowercase.
 		}
 		fileB.Close();
 		//close file B after it finishes reading it
