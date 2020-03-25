@@ -34,17 +34,17 @@ public class ReadInput
 		//new stream reader object that will read whatever file ive picked
 		while ((line = fileA.ReadLine()) != null)
 		{
-			file1.Add(line.ToLower());
+			file1.Add(line);
 		}
-		// A loop that will add each line and convert them to lower characters into an list until it can no longer read any lines
+		// A loop that will add each line into an list until it can no longer read any lines
 		fileA.Close();
 		//closes the file
 		StreamReader fileB = new StreamReader(filepathB);
 		//stream reader object for file B
 		while ((line = fileB.ReadLine()) != null)
 		{
-			file2.Add(line.ToLower());
-			//Adding data to the File B list and changing it all to lowercase.
+			file2.Add(line);
+			//Adding data to the File B list.
 		}
 		fileB.Close();
 		//close file B after it finishes reading it

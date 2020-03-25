@@ -40,6 +40,7 @@ public class Check
 			//if statement that checks the state of the bool to output the appropiate message.
 			Console.ForegroundColor = ConsoleColor.Red;
 			Console.WriteLine("a.txt and b.txt are different");
+			Console.ForegroundColor = ConsoleColor.White;
 			//if the files are different it will change the text colour and alert the user they are different.
 		}
 		else
@@ -47,6 +48,7 @@ public class Check
 			//if the bool is false this message will be shown
 			Console.ForegroundColor = ConsoleColor.Green;
 			Console.WriteLine("a.txt and b.txt are not different");
+			Console.ForegroundColor = ConsoleColor.White;
 		}
 	}
 }
